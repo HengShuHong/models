@@ -22,7 +22,7 @@ REQUIRED_PACKAGES = [
     'tensorflow_io',
     'keras<3.0',
     'pyparsing==2.4.7',  # TODO(b/204103388)
-    'sacrebleu<=2.2.0',
+    'sacrebleu==2.2.1',
     'dask<2024.10.0', # https://github.com/mjpost/sacrebleu/issues/209
 ]
 
