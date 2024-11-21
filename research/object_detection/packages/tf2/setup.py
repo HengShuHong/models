@@ -8,7 +8,7 @@ REQUIRED_PACKAGES = [
     'avro-python3==1.10.2',
     'apache-beam==2.59.0',
     'pillow',
-    'lxml=',
+    'lxml',
     'matplotlib',
     'Cython',
     'contextlib2',
