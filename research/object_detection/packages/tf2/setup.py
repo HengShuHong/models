@@ -5,25 +5,24 @@ from setuptools import setup
 
 REQUIRED_PACKAGES = [
     # Required for apache-beam with PY3
-    'avro-python3',
-    'apache-beam',
+    'avro-python3==1.10.2',
+    'apache-beam==2.59.0',
     'pillow',
-    'lxml',
+    'lxml=',
     'matplotlib',
     'Cython',
     'contextlib2',
     'tf-slim',
     'six',
     'pycocotools',
-    'lvis',
+    'lvis==0,5,3',
     'scipy',
     'pandas',
     'tf-models-official>=2.5.1',
-    'tensorflow_io',
+    'tensorflow_io==0.37.1',
     'keras<3.0',
     'pyparsing==2.4.7',  # TODO(b/204103388)
-    'sacrebleu==2.2.1',
-    'dask<2024.10.0', # https://github.com/mjpost/sacrebleu/issues/209
+    'sacrebleu==2.2.0', # https://github.com/mjpost/sacrebleu/issues/209
 ]
 
 setup(
